@@ -1,0 +1,28 @@
+{
+    "name": "Sentry1",
+    "version": "1.1.1",
+    "description": "",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "enmu.d.ts",
+        "_locales/zh-cn/Sentry1-strings.json",
+        "_locales/zh-cn/Sentry1-jsdoc-strings.json",
+        "_locales/zh-tw/Sentry1-strings.json",
+        "_locales/zh-tw/Sentry1-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
